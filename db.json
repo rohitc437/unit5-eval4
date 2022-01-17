@@ -1,0 +1,37 @@
+{
+  "jobs": [
+    {
+      "title": "Web Developer",
+      "company": "Lenovo",
+      "min_salary": "400000",
+      "max_salary": "650000",
+      "location": "Banglore",
+      "job_type": "Both",
+      "id": 9
+    },
+    {
+      "title": "Tester",
+      "company": "TATA",
+      "min_salary": "360000",
+      "max_salary": "450000",
+      "location": "Pune",
+      "job_type": "Remote",
+      "id": 10
+    }
+  ],
+  "applied": [],
+  "users": [
+    {
+      "id": 1,
+      "email": "kalpitme@gmail.com",
+      "password": "123456",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "abc@gmail.com",
+      "password": "123456",
+      "role": "client"
+    }
+  ]
+}

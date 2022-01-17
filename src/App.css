@@ -1,0 +1,164 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* custom */
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: yellowgreen;
+  padding: 0 2%;
+}
+
+nav div#menu-wrapper {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav div#menu-wrapper a {
+  color: darkblue;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+#home-wrapper {
+  background-color: pink;
+  /* height: 89vh; */
+  /* display: flex; */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: 1px solid red;
+  /* height: 700px; */
+}
+
+#login-wrapper {
+  background-color: pink;
+  height: 89vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  /* border: 5px solid palevioletred;  */
+  width: 30%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4% 5%;
+  background-color: pink;
+  justify-items: center;
+  /* box-shadow: 0 0 3px 5px aliceblue; */
+  /* border-radius: 10px; */
+}
+form h3 {
+  margin-bottom: 8%;
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 5%;
+  padding: 2% 3%;
+  border: none;
+  outline: none;
+}
+
+form input[type="submit"] {
+  width: 106.5%;
+}
+
+#admin-wrapper {
+  background-color: pink;
+  height: 89vh;
+  padding: 2%;
+  text-align: center;
+  justify-content: center;
+  display: grid;
+  width: 100%;
+}
+
+#admin-wrapper h1 {
+  margin: 0%;
+}
+
+#admin-wrapper #admin-input {
+  /* width: fit-content; */
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border: 1px solid palevioletred;
+  padding: 1% 0;
+  width: 700px;
+  justify-content: center;
+  /* background-color: royalblue; */
+  margin: 1% 0 2% 0;
+}
+
+#admin-input input {
+  margin-right: 1%;
+  font-size: 1rem;
+}
+
+#admin-input button {
+  font-size: 1rem;
+  padding: 0.1% 1%;
+}
+
+#mydesign {
+  width: 500px;
+  border: 1px solid red;
+  /* align-items: center;
+   */
+  justify-content: center;
+  margin: auto;
+  display: grid;
+  line-height: 1px;
+}
